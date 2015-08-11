@@ -1,0 +1,37 @@
+	body{
+	    font-weight: bold;
+            font-family: arial; 
+            	}
+        figcaption {
+            font-style: italic;
+            font-family: arial;
+            padding: 5px;
+            margin-left: 20px;
+                }
+	.SlidingPuzzle{
+		background: none repeat scroll 0 0 #000000;
+	    border-radius: 10px 10px 10px 10px;
+	    padding: 10px;
+	    width: 160px;
+           	}
+    .Tile{
+	    background-color: #FFFFFF;
+	    border-color: #CCCCCC #787878 #787878 #CCCCCC;
+	    border-image: none;
+	    border-style: solid;
+	    border-width: 6px;
+	    color: #000000;
+	    display: inline-block;
+	    margin: -2px;
+	    padding: 11px;
+	    width: 20px;
+    }
+    .Tile4{
+    	margin-top:2px;
+    }
+    .Tile7{
+    	margin-top:2px;
+    }	
+@media (min-width: 320px) and (max-width: 600px) {
+  html { background: #FFFFFF; }
+ }
